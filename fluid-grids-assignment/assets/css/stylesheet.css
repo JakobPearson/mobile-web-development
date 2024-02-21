@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .cf:before,
+  .cf:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+  
+  .cf:after {
+      clear: both;
+  }
+  
+  main{
+    margin: 20px auto;
+    border: 1px solid #000;
+  }
+  
+  header.primary, footer.primary{
+    /*  width:920px; */
+    width: 95.8333%;
+    background: rgba(0, 0, 0, 0.4);
+    /* margin:20px; */
+    margin:2.0833%;
+    padding:20px;
+    float:left;
+  }
+  
+  #blog{
+    background: rgba(4, 0, 0, 0.6);
+    /* width: 638px; */
+    width: 66.4583%;
+    margin-left: 2.0833%;
+    padding:120px;
+    float:left;
+  }
+  
+  aside{
+    background: rgba(0, 0, 0, 0.3);
+    /*width: 262px;*/
+    width: 27.2916%;
+    margin-left: 2.0833%;
+    padding:20px;
+    float:left;
+  }
