@@ -10,6 +10,11 @@ body{
   
 }
 
+.btn {
+ background-color: black;
+ border-radius: 10px 10px;
+}
+
 .footer{
   position:absolute;
   bottom:0;
@@ -20,7 +25,7 @@ body{
 } 
 
 #content{
-    background:red;
+  background: rgba(0, 0, 0, 0.10);
   }
   
   aside{
@@ -31,9 +36,7 @@ body{
     font-family: 'Inika', sans-serif;
     background-image: url(/mobile-web-final/assets/img/Mobile\ Web\ Site\ Banner.png); 
      background-size:cover;
-     background-color: black;
-     opacity: 1;
-     justify-content: center;
+     color: #f5f5f5;
    
   }
 
@@ -45,6 +48,8 @@ body{
   }
 
   .text-container{
-
-
+    background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.5);
+   border-radius: 50px 50px;
+   padding: 20px;
   }
