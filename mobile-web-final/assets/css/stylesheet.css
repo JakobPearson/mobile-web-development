@@ -2,10 +2,13 @@ html {
   font-family: 'Inter', sans-serif;
   position:relative;
   min-height:100%;
-  
 }
 
 body{
+  background-image: url('../img/canvas.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
   margin-bottom:60px;
   
 }
@@ -34,7 +37,7 @@ body{
   
   .hero{
     font-family: 'Inika', sans-serif;
-    background-image: url(/mobile-web-final/assets/img/Mobile\ Web\ Site\ Banner.png); 
+    background-image: url('../img/Mobile\ Web\ Site\ Banner.png'); 
      background-size:cover;
      color: #f5f5f5;
    
@@ -56,16 +59,19 @@ body{
 
  /* Browse Page */
 
- .browse-column{
-  display: grid;
-  grid-template-columns: auto;
-  width: 1000px;
- }
 
-#two-col-browse{
+ 
+.browse-content{
+width: 600px;
+}
+
+.browse-column{
+ margin-left: auto;
+}
+
+.browse-container.text-center{
   display: grid;
-  grid-template-columns: au
-  width: 1000px;
+  grid-template-columns: 1fr 1fr;
 }
 
  /* Artists Page */
@@ -75,8 +81,38 @@ body{
 
 }
 
+img{
+  max-width:100%;
+}
 
+.fade.container{
+  margin:40px auto;
+  width:70vw;
+  /* Set Max Content Width */
+  max-width:700px;
+}
 
+/* Customize Previous/Next/Dots/Autoplay */
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: rgb(0, 0, 0);
+}
+
+/* Customize Previous/Next/Dots/Autoplay - Active State */
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:black;
+}
 
   /* About Page */
 
