@@ -60,6 +60,15 @@ body{
  /* Browse Page */
 
 
+.browse-card{
+max-width: 500px;
+}
+
+
+
+#two-col-browse{
+  margin: auto;
+}
  
 .browse-content{
 width: 600px;
@@ -75,6 +84,8 @@ width: 600px;
 }
 
  /* Artists Page */
+
+ 
 
  * {
   box-sizing: border-box;
