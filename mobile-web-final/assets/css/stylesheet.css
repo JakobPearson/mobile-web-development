@@ -61,10 +61,20 @@ body{
 
 
 .browse-card{
-max-width: 500px;
+height: auto;
+max-width: 1000px;
+min-width: none;
+width: 600px;
+filter: drop-shadow(5px 5px);
 }
 
+#about-browse{
+  margin: 0px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  font-size: 20px;
 
+}
 
 #two-col-browse{
   margin: auto;
@@ -78,10 +88,7 @@ width: 600px;
  margin-left: auto;
 }
 
-.browse-container.text-center{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+
 
  /* Artists Page */
 
